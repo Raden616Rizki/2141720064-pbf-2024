@@ -16,6 +16,10 @@ npx create-next-app
 
 ### Langkah 3: Import Komponen
 
+```bash
+import Profile from "../app/components/profile";
+```
+
 ![gambar-praktikum](/img/praktikum-1-langkah-3.png)
 
 ![gambar-praktikum](/img/praktikum-1-langkah-3-error.png)
@@ -28,6 +32,27 @@ Terdapat error saat menggunakan gambar dari url, untuk menyelesaikan permasalaha
 
 ![gambar-praktikum](/img/praktikum-1-langkah-3-3.png)
 
+## Praktikum 2: Mengimpor dan Mengekspor Komponen
 
+### Langkah 1: Buat Komponen Baru
 
+![gambar-praktikum](/img/praktikum-2-langkah-1.png)
+
+### Langkah 2: Impor Komponen
+
+```bash
+import { Gallery } from "../app/components/gallery";
+```
+
+![gambar-praktikum](/img/praktikum-2-langkah-2.png)
+
+Dari kode yang sudah diperbarui tersebut memiliki hasil yang berbada dari hal penataan gambar, dikarenakan pada class Gallery menggunakan className="columns-3". Selain itu untuk penggunaan nama function dari suatu class untuk default bisa bebas untuk mengganti penamaan function yang digunakan, sedangkan untuk named harus sama seperti pada class.
+
+***default***
+
+![gambar-praktikum](/img/praktikum-2-langkah-2-1.png)
+
+***named***
+
+![gambar-praktikum](/img/praktikum-2-langkah-2-2.png)
 
