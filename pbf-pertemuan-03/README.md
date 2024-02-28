@@ -127,3 +127,31 @@ src={baseUrl.concat(person.imageId, person.imageSize, ".jpg")}
 ```
 
 Dari permasalahan tersebut terdapat struktur lain untuk menggunakan variabel untuk menjadi satu kesatuan dalam string, berbeda dengan menggunakannya langsung sebagai value atau content dalam suatu tag, dimana hanya perlu menggunakan kurung kurawa saja disertai nama variabel.
+
+## Praktikum 4: Menggunakan Props
+
+### Langkah 1: Buat Komponen Baru
+
+![gambar-praktikum](/img/praktikum-4-langkah-1.png)
+
+**Soal 7**
+
+Terdapat error pada penggunaan getImageUrls pada @/utils/utils dikarenakan fungsi tersebut akan dibuat pada langkah berikutnya.
+
+Dari penggunaan props tersebut, suatu function dapat memiliki suatu parameter yang nantinya dapat memperoleh value dari parent, parameter tersebut dapat juga diberi nilai default jika value tidak diberikan nilai ataupun undifined.
+
+![gambar-praktikum](/img/praktikum-4-langkah-1-2.png)
+
+![gambar-praktikum](/img/praktikum-4-langkah-1-1.png)
+
+### Langkah 2: Buat fungsi getImageUrl
+
+![gambar-praktikum](/img/praktikum-4-langkah-2.png)
+
+### Langkah 3: Buat komponen baru
+
+![gambar-praktikum](/img/praktikum-4-langkah-3.png)
+
+![gambar-praktikum](/img/praktikum-4-langkah-3-1.png)
+
+**Soal 8**
