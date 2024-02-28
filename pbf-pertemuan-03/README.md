@@ -8,11 +8,11 @@
 npx create-next-app
 ```
 
-![gambar-praktikum](/img/praktikum-1-langkah-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-1.png)
 
 ### Langkah 2: Buat Komponen Baru
 
-![gambar-praktikum](/img/praktikum-1-langkah-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-2.png)
 
 ### Langkah 3: Import Komponen
 
@@ -20,25 +20,25 @@ npx create-next-app
 import Profile from "../app/components/profile";
 ```
 
-![gambar-praktikum](/img/praktikum-1-langkah-3.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-3.png)
 
-![gambar-praktikum](/img/praktikum-1-langkah-3-error.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-3-error.png)
 
 **Soal 1**
 
 Terdapat error saat menggunakan gambar dari url, untuk menyelesaikan permasalahan tersebut maka perlu ditambahkan domain dari gambar yang digunakan didalam file next.config.mjs terlebih dahulu, seperti kode berikut.
 
-![gambar-praktikum](/img/praktikum-1-langkah-3-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-3-1.png)
 
-![gambar-praktikum](/img/praktikum-1-langkah-3-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-3-2.png)
 
-![gambar-praktikum](/img/praktikum-1-langkah-3-3.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-1-langkah-3-3.png)
 
 ## Praktikum 2: Mengimpor dan Mengekspor Komponen
 
 ### Langkah 1: Buat Komponen Baru
 
-![gambar-praktikum](/img/praktikum-2-langkah-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-1.png)
 
 ### Langkah 2: Impor Komponen
 
@@ -46,7 +46,7 @@ Terdapat error saat menggunakan gambar dari url, untuk menyelesaikan permasalaha
 import { Gallery } from "../app/components/gallery";
 ```
 
-![gambar-praktikum](/img/praktikum-2-langkah-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-2.png)
 
 **Soal 2**
 
@@ -54,23 +54,23 @@ Dari kode yang sudah diperbarui tersebut memiliki hasil yang berbada dari hal pe
 
 ***default***
 
-![gambar-praktikum](/img/praktikum-2-langkah-2-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-2-1.png)
 
 ***named***
 
-![gambar-praktikum](/img/praktikum-2-langkah-2-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-2-2.png)
 
 **Soal 3**
 
 Terdapat error yang terjadi pada kode, disebabkan oleh penutup tag yang tidak tepat, seperti berikut ini.
 
-![gambar-praktikum](/img/praktikum-2-langkah-2-3.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-2-3.png)
 
 Maka dapat diperbaiki dengan memindahkan penutup untuk <i>, sehingga kode sudah tidak terjadi error.
 
-![gambar-praktikum](/img/praktikum-2-langkah-2-4.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-2-4.png)
 
-![gambar-praktikum](/img/praktikum-2-langkah-2-5.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-2-langkah-2-5.png)
 
 ## Praktikum 3: Menggunakan JSX dinamis
 
@@ -78,37 +78,37 @@ Maka dapat diperbaiki dengan memindahkan penutup untuk <i>, sehingga kode sudah 
 
 **Soal 4**
 
-![gambar-praktikum](/img/praktikum-3-langkah-1-error.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-1-error.png)
 
-![gambar-praktikum](/img/praktikum-3-langkah-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-1.png)
 
 ### Langkah 2: Impor Komponen
 
-![gambar-praktikum](/img/praktikum-3-langkah-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-2.png)
 
-![gambar-praktikum](/img/praktikum-3-langkah-2-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-2-1.png)
 
 **Soal 5**
 
 Hasil yang ditampilkan masih sama dengan sebelumnya, dikarenakan hanya melakukan penambahan atribut pada objek person, kemudian menggunakannya kembali seperti atribut lain seperti theme dan name.
 
-![gambar-praktikum](/img/praktikum-3-langkah-2-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-2-2.png)
 
-![gambar-praktikum](/img/praktikum-3-langkah-2-3.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-2-3.png)
 
 ### Langkah 3: Ubah ekspresi URL di src
 
-![gambar-praktikum](/img/praktikum-3-langkah-3.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-3.png)
 
 **Soal 6**
 
 ***imageSize: 's'***
 
-![gambar-praktikum](/img/praktikum-3-langkah-3-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-3-1.png)
 
 ***imageSize: 'b'***
 
-![gambar-praktikum](/img/praktikum-3-langkah-3-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-3-langkah-3-2.png)
 
 Penggunaan Image Size antara s dengan b menghasilkan ukuran gambar yang berbeda pula saat ditampilkan, dimana dengan imageSize b dapat menghasilkan ukuran gambar yang lebih besar.
 
@@ -132,7 +132,7 @@ Dari permasalahan tersebut terdapat struktur lain untuk menggunakan variabel unt
 
 ### Langkah 1: Buat Komponen Baru
 
-![gambar-praktikum](/img/praktikum-4-langkah-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-1.png)
 
 **Soal 7**
 
@@ -140,18 +140,18 @@ Terdapat error pada penggunaan getImageUrls pada @/utils/utils dikarenakan fungs
 
 Dari penggunaan props tersebut, suatu function dapat memiliki suatu parameter yang nantinya dapat memperoleh value dari parent, parameter tersebut dapat juga diberi nilai default jika value tidak diberikan nilai ataupun undifined.
 
-![gambar-praktikum](/img/praktikum-4-langkah-1-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-1-2.png)
 
-![gambar-praktikum](/img/praktikum-4-langkah-1-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-1-1.png)
 
 ### Langkah 2: Buat fungsi getImageUrl
 
-![gambar-praktikum](/img/praktikum-4-langkah-2.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-2.png)
 
 ### Langkah 3: Buat komponen baru
 
-![gambar-praktikum](/img/praktikum-4-langkah-3.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3.png)
 
-![gambar-praktikum](/img/praktikum-4-langkah-3-1.png)
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3-1.png)
 
 **Soal 8**
