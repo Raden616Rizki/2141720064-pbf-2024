@@ -1,16 +1,14 @@
-import Image from "next/image";
-import Profile from "../app/components/profile";
 import { Gallery } from "../app/components/gallery";
-import Bio from "../app/components/bio";
+import TodoList from "../app/components/todolist";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-32">
-      <Bio></Bio>
-        <p>Ilmuwan yang Luar Biasa</p>
-      <div className="w-full items-center justify-between font-mono text-sm lg:flex">
-        <Gallery></Gallery>
-      </div>
-    </main>
+    <section>
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+      <hr />
+      <Gallery />
+      <hr />
+      <TodoList />
+    </section>
   );
 }

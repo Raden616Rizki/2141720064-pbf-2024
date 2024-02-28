@@ -72,5 +72,58 @@ Maka dapat diperbaiki dengan memindahkan penutup untuk <i>, sehingga kode sudah 
 
 ![gambar-praktikum](/img/praktikum-2-langkah-2-5.png)
 
+## Praktikum 3: Menggunakan JSX dinamis
 
+### Langkah 1: Buat Komponen Baru
 
+**Soal 4**
+
+![gambar-praktikum](/img/praktikum-3-langkah-1-error.png)
+
+![gambar-praktikum](/img/praktikum-3-langkah-1.png)
+
+### Langkah 2: Impor Komponen
+
+![gambar-praktikum](/img/praktikum-3-langkah-2.png)
+
+![gambar-praktikum](/img/praktikum-3-langkah-2-1.png)
+
+**Soal 5**
+
+Hasil yang ditampilkan masih sama dengan sebelumnya, dikarenakan hanya melakukan penambahan atribut pada objek person, kemudian menggunakannya kembali seperti atribut lain seperti theme dan name.
+
+![gambar-praktikum](/img/praktikum-3-langkah-2-2.png)
+
+![gambar-praktikum](/img/praktikum-3-langkah-2-3.png)
+
+### Langkah 3: Ubah ekspresi URL di src
+
+![gambar-praktikum](/img/praktikum-3-langkah-3.png)
+
+**Soal 6**
+
+***imageSize: 's'***
+
+![gambar-praktikum](/img/praktikum-3-langkah-3-1.png)
+
+***imageSize: 'b'***
+
+![gambar-praktikum](/img/praktikum-3-langkah-3-2.png)
+
+Penggunaan Image Size antara s dengan b menghasilkan ukuran gambar yang berbeda pula saat ditampilkan, dimana dengan imageSize b dapat menghasilkan ukuran gambar yang lebih besar.
+
+Terdapat error pada gambar yang ditampilkan, yaitu berupa url yang tidak tepat, menjadi src="${baseUrl}${person.imageId}${person.imageSize}.jpg" saat menggunakan kode seperti berikut
+
+```bash
+src="${baseUrl}${person.imageId}${person.imageSize}.jpg"
+```
+
+Maka dengan kode dibawah ini permasalahan tersebut dapat terselesaikan, yaitu dengan menggunakan backtick ataupun concat.
+
+```bash
+src={`${baseUrl}${person.imageId}${person.imageSize}.jpg`}
+
+src={baseUrl.concat(person.imageId, person.imageSize, ".jpg")}
+```
+
+Dari permasalahan tersebut terdapat struktur lain untuk menggunakan variabel untuk menjadi satu kesatuan dalam string, berbeda dengan menggunakannya langsung sebagai value atau content dalam suatu tag, dimana hanya perlu menggunakan kurung kurawa saja disertai nama variabel.
