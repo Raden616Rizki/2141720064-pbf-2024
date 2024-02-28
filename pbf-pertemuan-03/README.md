@@ -165,3 +165,13 @@ Sebelumnya terdapat permasalahan di URL gambar yang menghasilkan gambar, sehingg
 Untuk size yang menentukan 's' atau 'b' dari URL gambar, maka dapat digunakan ternary operator untuk menangani kondisi tersebut.
 
 ![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3-4.png)
+
+### Buat komponen baru MyProfileV2
+
+**Soal 9**
+
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-4.png)
+
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-4-1.png)
+
+Dengan membuat function Card, penulisan tag yang berulang seperti card tersebut, dapat ditulis sekali saja dalam function, kemudian dengan function tersebut, komponen yang sama dapat digunakan diparent dengan penulisan yang lebih singkat.
