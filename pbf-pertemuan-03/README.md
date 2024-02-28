@@ -155,3 +155,13 @@ Dari penggunaan props tersebut, suatu function dapat memiliki suatu parameter ya
 ![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3-1.png)
 
 **Soal 8**
+
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3-2.png)
+
+Sebelumnya terdapat permasalahan di URL gambar yang menghasilkan gambar, sehingga saya rubah penggunaan parameter seperti diatas, sehingga URL yang diberikan dapat tepat dan menghasilkan tampilan seperti dibawah ini.
+
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3-3.png)
+
+Untuk size yang menentukan 's' atau 'b' dari URL gambar, maka dapat digunakan ternary operator untuk menangani kondisi tersebut.
+
+![gambar-praktikum](../pbf-pertemuan-03/img/praktikum-4-langkah-3-4.png)

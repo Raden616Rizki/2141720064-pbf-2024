@@ -1,11 +1,16 @@
 import { getImageUrlV2 } from '../utils/utils';
 
-function MyAvatar(person: any, size: any) {
-    // let imgSize = size < 90 ? 's' : 'b';
+interface Person {
+    name: string;
+    imageId: string;
+}
+
+function MyAvatar({ person, size }: {person: Person; size: number}) {
+    let imgSize = size < 90 ? 's' : 'b';
   return (
     <img
       className="avatar"
-      src={getImageUrlV2(person, 'b')}
+      src={getImageUrlV2(person, imgSize)}
       alt={person.name}
       width={size}
       height={size}
