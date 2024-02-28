@@ -24,6 +24,8 @@ import Profile from "../app/components/profile";
 
 ![gambar-praktikum](/img/praktikum-1-langkah-3-error.png)
 
+**Soal 1**
+
 Terdapat error saat menggunakan gambar dari url, untuk menyelesaikan permasalahan tersebut maka perlu ditambahkan domain dari gambar yang digunakan didalam file next.config.mjs terlebih dahulu, seperti kode berikut.
 
 ![gambar-praktikum](/img/praktikum-1-langkah-3-1.png)
@@ -46,6 +48,8 @@ import { Gallery } from "../app/components/gallery";
 
 ![gambar-praktikum](/img/praktikum-2-langkah-2.png)
 
+**Soal 2**
+
 Dari kode yang sudah diperbarui tersebut memiliki hasil yang berbada dari hal penataan gambar, dikarenakan pada class Gallery menggunakan className="columns-3". Selain itu untuk penggunaan nama function dari suatu class untuk default bisa bebas untuk mengganti penamaan function yang digunakan, sedangkan untuk named harus sama seperti pada class.
 
 ***default***
@@ -55,4 +59,18 @@ Dari kode yang sudah diperbarui tersebut memiliki hasil yang berbada dari hal pe
 ***named***
 
 ![gambar-praktikum](/img/praktikum-2-langkah-2-2.png)
+
+**Soal 3**
+
+Terdapat error yang terjadi pada kode, disebabkan oleh penutup tag yang tidak tepat, seperti berikut ini.
+
+![gambar-praktikum](/img/praktikum-2-langkah-2-3.png)
+
+Maka dapat diperbaiki dengan memindahkan penutup untuk <i>, sehingga kode sudah tidak terjadi error.
+
+![gambar-praktikum](/img/praktikum-2-langkah-2-4.png)
+
+![gambar-praktikum](/img/praktikum-2-langkah-2-5.png)
+
+
 
