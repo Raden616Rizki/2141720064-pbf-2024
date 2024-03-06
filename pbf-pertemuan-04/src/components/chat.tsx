@@ -7,11 +7,11 @@ const contacts = [
     {name: 'Bob', email: 'bob@mail.com'},
 ]
 
-export function ContactList({selectedContac, contacts, onSelect}: any) {
+export function ContactList({selectedContact, contacts, onSelect}: any) {
     return (
         <section className="contact-list">
             <ul className="w-full">
-                {contacts.map(contact =>
+                {contacts.map((contact:any) =>
                     <li key={contact.email}>
                         <button className="text-xs bg-blue-400 rounded p-1 m-2 text-white"
                             onClick={() => {onSelect(contact)}}>
@@ -45,7 +45,25 @@ export default function Messenger() {
     return (
         <div>
             <table className="w-1/2 text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead className="text-xs"></thead>
+                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" className="px-6 py-3">List Kontak</th>
+                        <th scope="col" className="px-6 py-3">Pesan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ContactList
+                                contacts={contacts}
+                                selectedContact={to}
+                                onSelect={(contact:any) => setTo(contact)}/>
+                        </td>
+                        <td>
+                            <Chat key={to.email} contact={to}/>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     )

@@ -3,6 +3,7 @@ import Tombol_1, { Tombol_2, Tombol_3 } from "@/components/button";
 import Gallery from "@/components/gallery";
 import Form, { Form_2 } from "@/components/form";
 import Accordion from "@/components/accordion";
+import Messenger, { Chat } from "@/components/chat";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       <Form_2/>
       <br />
       <Accordion/>
+      <br />
+      <Messenger/>
     </div>
   )
 }

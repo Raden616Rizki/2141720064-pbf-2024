@@ -68,6 +68,15 @@ Tampilan pada browser menampilkan button kedua dengan berupa pembatas berdasarka
 
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_2_2.png)
 
+**Soal**
+1. Jika kita menekan tombol "Artikel Selanjutnya" sebanyak 5x (atau melebihi halaman total artikel), apa yang akan terjadi?
+
+
+
+2. Modifikasilah gallery.tsx agar bisa meng-handle permasalahan tersebut.
+
+3. Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.
+
 ## Praktikum 5
 
 ### Langkah 1
@@ -101,3 +110,7 @@ Accordion Code: [Go to accordion.tsx](/pbf-pertemuan-04/src/components/accordion
 Setiap panel ditampilkan secara bergantian, tergantung panel mana yang diklik "Tampilkan". Hal tersebut dapat terjadi dengan mengecek kondisi antara activeIndex saat ini dengan value dari setiap panel, jika panel memiliki activeIndex dan value yang sesuai maka teks akan ditampilkan. Saat button "Tampilkan" diklik maka activeIndex saat ini juga akan ikut berubah.
 
 ### Langkah 2
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_6_langkah_2_1.png)
+
+Perbedaan yang dihasilkan dari penggunaan <Chat contact={to}/> dengan <Chat key={to.email} contact={to}/> adalah tidak ada, baik dari tampilan maupun state yang dimiliki, dikarenakan dalam functio Chat tidak terdapat parameter key, sehingga argument tersebut tidak diolah sama sekali oleh function Chat.
