@@ -21,9 +21,10 @@ export default function Tombol_1() {
 
 export function Tombol_2({isiPesan, namaTombol}: any) {
     return (
-        <button className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded"
+        <button className="bg-yellow-700 hover:bg-yellow-300 text-white hover:text-black p-2 rounded"
         onClick={() => alert(isiPesan)}>
             {namaTombol}
         </button>
     )
 }
+

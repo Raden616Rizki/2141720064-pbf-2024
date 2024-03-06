@@ -24,3 +24,16 @@
 
 ## Praktikum 2
 
+### Langkah 1
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_2_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_2_langkah_1_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_2_langkah_1_3.png)
+
+Tampilan pada browser menampilkan button kedua dengan berupa pembatas berdasarkan tag hr dan nama button sesuai dengan arguments yang diberikan pada value namaTombol di component Tombol_2 tersebut. Selain itu, pesan yang ditampilkan juga didasarkan pada argument isiPesan Tombol_2.
+
+## Praktikum 3
+
+### Langkah 1: Propagation
