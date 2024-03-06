@@ -107,6 +107,16 @@ Dengan menggunakan kondisi dan state yang dapat diperbarui, setiap jawaban pada 
 
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_5_langkah_2_1.png)
 
+**Soal**
+
+1. Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?
+
+
+
+2. Kenapa perlu menghapus state fullName? Apa keuntungannya?
+
+
+
 ## Praktikum 6
 
 ### Langkah 1
