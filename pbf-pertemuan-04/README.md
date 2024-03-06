@@ -71,11 +71,23 @@ Tampilan pada browser menampilkan button kedua dengan berupa pembatas berdasarka
 **Soal**
 1. Jika kita menekan tombol "Artikel Selanjutnya" sebanyak 5x (atau melebihi halaman total artikel), apa yang akan terjadi?
 
+Terjadi error karena indeks sudah melebihi indeks terakhir dari list data. Sehingga menampilkan pesan tersebut.
 
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_soal_1.png)
 
 2. Modifikasilah gallery.tsx agar bisa meng-handle permasalahan tersebut.
 
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_soal_2.png)
+
+Dengan menambahkan modulus pada increment dari index, maka hasil yang akan dihasilkan adalah antara 0 sampai index terakhir.
+
 3. Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_soal_3_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_soal_3_2.png)
+
+Ternary operator dapat membantu dalam membuat kondisi dalam satu baris seperti diatas, sehingga dengan menggunakan kondisi tersebut yaitu jika index baru kurang dari 0, maka value baru akan diset manjadi index terakhir dari list.
 
 ## Praktikum 5
 
