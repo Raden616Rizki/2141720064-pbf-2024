@@ -67,3 +67,21 @@ Tampilan pada browser menampilkan button kedua dengan berupa pembatas berdasarka
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_2_1.png)
 
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_2_2.png)
+
+## Praktikum 5
+
+### Langkah 1
+
+Form Code: [Go to form.tsx](/pbf-pertemuan-04/src/components/form.tsx)
+
+Page Code: [Go to page.tsx](/pbf-pertemuan-04/src/app/page.tsx)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_5_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_5_langkah_1_2.png)
+
+Dengan menggunakan kondisi dan state yang dapat diperbarui, setiap jawaban pada form dapat menampilkan pesan error yang berbeda-beda, jika jawaban salah maka pesan error akan ditampilkan karena ini memenuhi kondisi untuk menampilkan error dari tag p, sedangkan jika jawaban benar, maka form tidak akan ditampilkan dan menampilkan pesan "Yay... Jawaban Benar!" karena state status menjadi success dan pesan tersebut akan direturn.
+
+### Langkah 2
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_5_langkah_2_1.png)
