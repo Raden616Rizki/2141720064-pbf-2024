@@ -85,3 +85,19 @@ Dengan menggunakan kondisi dan state yang dapat diperbarui, setiap jawaban pada 
 ### Langkah 2
 
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_5_langkah_2_1.png)
+
+## Praktikum 6
+
+### Langkah 1
+
+Accordion Code: [Go to accordion.tsx](/pbf-pertemuan-04/src/components/accordion.tsx)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_6_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_6_langkah_1_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_6_langkah_1_3.png)
+
+Setiap panel ditampilkan secara bergantian, tergantung panel mana yang diklik "Tampilkan". Hal tersebut dapat terjadi dengan mengecek kondisi antara activeIndex saat ini dengan value dari setiap panel, jika panel memiliki activeIndex dan value yang sesuai maka teks akan ditampilkan. Saat button "Tampilkan" diklik maka activeIndex saat ini juga akan ikut berubah.
+
+### Langkah 2
