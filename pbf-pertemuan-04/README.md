@@ -37,3 +37,17 @@ Tampilan pada browser menampilkan button kedua dengan berupa pembatas berdasarka
 ## Praktikum 3
 
 ### Langkah 1: Propagation
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_1_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_1_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_1_4.png)
+
+### Langkah 2: Stop Propagation
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_2_2.png)
