@@ -51,3 +51,19 @@ Tampilan pada browser menampilkan button kedua dengan berupa pembatas berdasarka
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_2_1.png)
 
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_3_langkah_2_2.png)
+
+## Praktikum 4
+
+### Langkah 1
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_1_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_1_3.png)
+
+### Langkah 2
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_4_langkah_2_2.png)
