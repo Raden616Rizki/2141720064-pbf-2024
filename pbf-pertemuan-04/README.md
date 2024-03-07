@@ -111,11 +111,13 @@ Dengan menggunakan kondisi dan state yang dapat diperbarui, setiap jawaban pada 
 
 1. Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?
 
-
+Fungsi pertama yaitu handleFirstName() berfungsi untuk memperbarui state fullName pada bagian firstName dengan mengambil value yang diinputkan, ditambah dengan state lastName saat ini. Sedangkan handleLastName() berfungsi sebaliknya yaitu utnuk memperbarui bagian lastName pada state fullName, dengan menambahkan state fisrtName saat ini dengan value yang diinputkan.
 
 2. Kenapa perlu menghapus state fullName? Apa keuntungannya?
 
+![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_5_soal_2.png)
 
+Karena fullName cukup diinisialisasi diawal kalau merupakan hasil dari firstName ditambah lastName, sehingga tidak perlu melewati function handle dari firstName maupun lastName untuk mengset ulang fullName ketika akan ada perubahan, sehingga hal ini akan mengurangi aksi yang dilakukan, jika sebelumnya setiap fucntion memiliki aksi untuk melakukan perbaruan ke fullName, maka sekarang cukup menginisialisasi variabel fullName di awal saja. Meskipun begitu, hasil yann ditampilkan tetap sama dengan sebelumnya.
 
 ## Praktikum 6
 
