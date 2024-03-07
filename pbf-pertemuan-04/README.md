@@ -137,4 +137,14 @@ Setiap panel ditampilkan secara bergantian, tergantung panel mana yang diklik "T
 
 ![gambar-praktikum](../pbf-pertemuan-04/img/praktikum_6_langkah_2_1.png)
 
-Perbedaan yang dihasilkan dari penggunaan <Chat contact={to}/> dengan <Chat key={to.email} contact={to}/> adalah tidak ada, baik dari tampilan maupun state yang dimiliki, dikarenakan dalam functio Chat tidak terdapat parameter key, sehingga argument tersebut tidak diolah sama sekali oleh function Chat.
+Perbedaan yang cukup jelas terlihat adalah dimana saat tidak menggunakan key, input yang dimasukkan ditext area akan tetap terbawa atau ada walaupun sudah berpindah kontak, sedangkan ketika menggunakan key, input tersebut akan hilang jika berpindah kontak.
+
+**Soal**
+
+1. Apa tujuan dari penulisan ini key={to.email} pada < Chat key={to.email} contact={to} / > ?
+
+Props tersebut ditunjukkan untuk memberikan identitas unik untuk setiap komponen, sehingga tidak akan dianggap sebagai komponen yang sama.
+
+2. Apa fungsi dari props key tersebut?
+
+Dengan menggunakan props key tersebut, maka suatu aksi akan berpengaruh ke komponen dengan key yang sesuai saja, tidak diterapkan ke semua komponen walaupun struktur nya sama, contohnya seperti pada praktikum 6 ini. Input yang dimasukkan ditext area akan tetap terbawa atau ada walaupun sudah berpindah kontak, sedangkan ketika menggunakan key, input tersebut akan hilang jika berpindah kontak.
