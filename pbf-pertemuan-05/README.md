@@ -59,3 +59,27 @@ Dengan menggunakan konsep routing tersebut, maka setiap ada route atau path baru
 ![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_3_langkah_4_1.png)
 
 ![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_3_langkah_4_2.png)
+
+## Praktikum 4: Navigasi dengan Link Component
+
+### Langkah 1: Menambahkan penggunaan Link komponen untuk mengakses halaman /profile dan /about
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_1_2.png)
+
+### Langkah 2: Menambahkan penggunaan Link komponen untuk mengakses halaman lainnya
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_4.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_5.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_6.png)
+
+![gambar-praktikum](../pbf-pertemuan-05/img/praktikum_4_langkah_2_7.png)
