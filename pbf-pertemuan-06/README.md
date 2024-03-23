@@ -96,3 +96,25 @@ Terjadi error ketika merefresh laman dalam keadaan sudah login sebagai berikut.
 
 
 2. Baris 25 dan 30 terdapat method parse(), apa yang terjadi jika kita tidak menggunakan method tersebut?
+
+![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_2_soal_2_error_1.png)
+
+Saat parse tidak digunakan, maka kode dalam parse sebelumnya akan dianggap sebagai string, bukan sintaks dari html, sehingga yang ditampilkan akan menjadi seperti gambar diatas.
+
+## Praktikum 3: Membuat Aplikasi Counter Sederhana
+
+### Langkah 1: Membuat file redux/counter/naikTurunSlice.js
+
+![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_1.png)
+
+### Langkah 2: Modifikasi redux/store/store.js
+
+![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_2.png)
+
+### Langkah 3: Membuat file baru pages/counter.tsx
+
+![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_3_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_3_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_3_2.png)

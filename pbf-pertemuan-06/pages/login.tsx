@@ -25,27 +25,27 @@ export default function Logincheck() {
     }
 
     return (
-<div className="container">
-    <div className="row">
-        <div className="col-12">
-            <div className="card mt-3">
-                <div className="card-header">Status Login</div>
-                <div className="card-body">
-                    { isLogin ?
-                    [ // jika berhasil login (isLogin = true)
-                    parse('<div class="alert alert-success">Yay, berhasil login! !!</div>'),
-                    <button className="btn btn-md btn-danger" onClick={()=> handleAuth('logout')}>Log out</button>
-                    ]
-                    :
-                    [ // jika telah logout (isLogin = false)
-                    parse('<div class="alert alert-dark">Anda telah logout!</div>'),
-                    <button className="btn btn-md btn-primary" onClick={()=> handleAuth('login')}>Log in</button>
-                    ]
-                    }
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    <div className="card mt-3">
+                        <div className="card-header">Status Login</div>
+                        <div className="card-body">
+                            { isLogin ?
+                            [ // jika berhasil login (isLogin = true)
+                            parse('<div class="alert alert-success">Yay, berhasil login! !!</div>'),
+                            <button className="btn btn-md btn-danger" onClick={()=> handleAuth('logout')}>Log out</button>
+                            ]
+                            :
+                            [ // jika telah logout (isLogin = false)
+                            parse('<div class="alert alert-dark">Anda telah logout!</div>'),
+                            <button className="btn btn-md btn-primary" onClick={()=> handleAuth('login')}>Log in</button>
+                            ]
+                            }
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
     )
 }
