@@ -118,3 +118,43 @@ Saat parse tidak digunakan, maka kode dalam parse sebelumnya akan dianggap sebag
 ![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_3_3.png)
 
 ![gambar-praktikum](../pbf-pertemuan-06/img/praktikum_3_langkah_3_2.png)
+
+## Tugas (Pertanyaan Praktikum)
+
+Berdasarkan pada praktikum sebelumnya yang telah dilakukan, beberapa pertanyaan terkait praktikum perlu diselesaikan yaitu sebagai berikut.
+
+1. Apa kegunaan dari kode ini import { useEffect } from "react"; Pada file pages/_app.tsx? jelaskan !
+
+UseEffect pada file _app.tsx ditujukan agar proyek ini dapat memuat bundel js dari boostrap untuk seluruh proyek atau website ini, sehingga JavaScript dari bootstrap tersebut dapat berjalan ataupun digunakan oleh setiap file atau halaman yang sudah dibuat.
+
+2. Jika pada file pages/_app.tsx kita tidak menggunakan useEffect (menghapus baris 3, dan baris 9-11), apa yang akan terjadi?
+
+Ketika menghapus bari 3 dan baris 9-11, yang terjadi adalah ketika button modal di klik pada halaman utama atau index, maka pop up tidak akan muncul dan tidak ada efek apapun yang ditimbulkan ketika button di klik.
+
+3. Mengapa di react/nextjs penulisan tag html untuk class, harus diganti menjadi className ?
+
+Penggunaan className pada react/nextjs dikarenakan agar tidak terjadi konflik dengan class yang merupakan kata kunci yang sudah digunakan atau ditetapkan oleh JavaScript.
+
+4. Apakah store pada nextjs bisa menyimpan banyak redux reducer?
+
+Redux reducer dapat disimpan lebih dari satu pada store nextjs, seperti yang dilakukan pada praktikum, dimana terdapat dua reducer yaitu authReducer dan counterReducer, kedua reducer tersebut dapat berada pada satu state tree dengan menggunakan combineReducers.
+
+5. Jelaskan kegunaan dari file store.js!
+
+File store.js dapat membantu dalam mengelola state yang akan digunakan dalam proyek ini, seperti pada autentikasi dan counter. Selain itu file store.js juga digunakan untuk menyimpan state dalam local storage, sehingga, meskipun halaman dimuat ulang, state tidak akan berubah.
+
+6. Pada file pages/login.tsx, apa maksud dari kode ini ?
+
+```bash
+const { isLogin } = useSelector((state) => state.auth);
+```
+
+Baris kode tersebut berguna untuk mengambil data dari state, data yang diambil berupa data dengan nama auth, kemudian data tersebut akan disimpan di variabel isLogin.
+
+7. Pada file pages/counter.tsx, apa maksud dari kode ini?
+
+```bash
+const {totalCounter} = useSelector((state) => state.counter);
+```
+
+Sama seperti penggunaan pada halaman login.tsx, pada baris kode tersebut juga, berguna untuk mengambil data dari state, data yang diambil berupa data dengan nama counter, kemudian data tersebut akan disimpan di variabel totalCounter.
