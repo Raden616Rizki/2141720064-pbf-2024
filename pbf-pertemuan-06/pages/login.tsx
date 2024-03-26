@@ -8,7 +8,7 @@ import {
 } from '../redux/auth/authSlice';
 
 import "bootstrap/dist/css/bootstrap.min.css"; // import css bootstrap
-import parse from 'html-react-parser'; // import parse utk parsing string html ke html murni
+// import parse from 'html-react-parser'; // import parse utk parsing string html ke html murni
 
 export default function Logincheck() {
     const {
@@ -32,15 +32,14 @@ export default function Logincheck() {
                         <div className="card-header">Status Login</div>
                         <div className="card-body">
                             { isLogin ?
-                            [ // jika berhasil login (isLogin = true)
-                            parse('<div class="alert alert-success">Yay, berhasil login! !!</div>'),
-                            <button className="btn btn-md btn-danger" onClick={()=> handleAuth('logout')}>Log out</button>
-                            ]
-                            :
-                            [ // jika telah logout (isLogin = false)
-                            parse('<div class="alert alert-dark">Anda telah logout!</div>'),
-                            <button className="btn btn-md btn-primary" onClick={()=> handleAuth('login')}>Log in</button>
-                            ]
+                                <div key="success-alert" className="alert alert-success">Yay, berhasil login! !!</div>
+                                :
+                                <div key="logout-alert" className="alert alert-dark">Anda telah logout!</div>
+                            }
+                            { isLogin ?
+                                <button key="logout-btn" className="btn btn-md btn-danger" onClick={()=> handleAuth('logout')}>Log out</button>
+                                :
+                                <button key="login-btn" className="btn btn-md btn-primary" onClick={()=> handleAuth('login')}>Log in</button>
                             }
                         </div>
                     </div>
@@ -48,4 +47,5 @@ export default function Logincheck() {
             </div>
         </div>
     )
+    
 }
