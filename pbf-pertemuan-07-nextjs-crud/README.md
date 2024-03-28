@@ -39,3 +39,27 @@ npm install bootstrap
 ### Langkah 4: Membuat Layout
 
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_2_langkah_4.png)
+
+## Praktikum 3: Menampilkan Data di Next.js (Server Side)
+
+### Langkah 1: Install Axios
+
+```bash
+npm install axios
+```
+
+### Langkah 2: Konfigurasi Env untuk Endpoint
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_3_langkah_2.png)
+
+### Langkah 3: Menampilkan Data di NextJS
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_3_langkah_3.png)
+
+### Langkah 4: Uji Coba Menampilkan Data
+
+Menambahkan Legaci Behaviour untuk menggunakan tag a (<a>)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_3_langkah_4_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_3_langkah_4_2.png)
