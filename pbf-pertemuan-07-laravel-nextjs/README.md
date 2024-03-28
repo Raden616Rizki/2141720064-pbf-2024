@@ -115,3 +115,13 @@ php artisan route:list
 
 ![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_4_langkah_2_3.png)
 
+## Praktikum 5: Menampilkan Detail Data
+
+### Langkah 1: Menambahkan Method Show
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_5_langkah_1.png)
+
+### Langkah 2: Uji Coba Rest API
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_5_langkah_2.png)
+
