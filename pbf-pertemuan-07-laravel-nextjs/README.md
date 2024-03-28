@@ -57,3 +57,16 @@ php artisan storage:link
 
 ![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_1_langkah_8.png)
 
+## Praktikum 2: Membuat API Resources
+
+### Langkah 1: Membuat API Resources
+
+```bash
+php artisan make:resource PostResource
+```
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_2_langkah_1.png)
+
+### Langkah 2: Melakukan Custom API Resources
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_2_langkah_2.png)
