@@ -63,3 +63,17 @@ Menambahkan Legaci Behaviour untuk menggunakan tag a (<a>)
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_3_langkah_4_1.png)
 
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_3_langkah_4_2.png)
+
+## Praktikum 4: Insert data di Next.js
+
+### Langkah 1: Membuat Page Create Post
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_4_langkah_1.png)
+
+### Langkah 2: Uji Coba Insert Data
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_4_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_4_langkah_2_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_4_langkah_2_2.png)
