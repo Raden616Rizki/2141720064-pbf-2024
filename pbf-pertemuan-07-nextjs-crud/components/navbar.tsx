@@ -16,7 +16,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <ul className="navbar-nav me-auto mb-2 mb-md-0">
                             <li className="nav-item">
-                                <Link href="/posts" legacyBehavior><a className="nav-link">POSTS</a></Link>
+                                <Link href="/posts" legacyBehavior><a className="nav-link">Home</a></Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="https://www.linkedin.com/in/raden-rizki-598a4b218" target="_blank">Raden Rizki (LinkedIn)</a>

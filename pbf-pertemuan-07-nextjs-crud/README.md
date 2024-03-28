@@ -77,3 +77,19 @@ Menambahkan Legaci Behaviour untuk menggunakan tag a (<a>)
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_4_langkah_2_3.png)
 
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_4_langkah_2_2.png)
+
+## Praktikum 5: Edit dan Update Data di Next.js
+
+### Langkah 1: Mengaktifkan Link Edit
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_5_langkah_1.png)
+
+### Langkah 2: Membuat Page Edit Post
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_5_langkah_2.png)
+
+### Langkah 3: Uji Coba Edit dan Update Data
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_5_langkah_3_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_5_langkah_3_2.png)
