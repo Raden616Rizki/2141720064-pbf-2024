@@ -138,3 +138,15 @@ php artisan route:list
 ![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_6_langkah_2_1.png)
 
 ![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_6_langkah_2_2.png)
+
+## Praktikum 7: Delete Data dari Database
+
+### Langkah 1: Menambahkan Method Delete
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_7_langkah_1.png)
+
+### Langkah 2: Uji Coba Rest API
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_7_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_7_langkah_2_2.png)
