@@ -42,3 +42,18 @@ php artisan make:model Post -m
 ```bash
 php artisan migrate
 ```
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_1_langkah_6.png)
+
+### Langkah 7: Menambahkan Mass Assignment
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_1_langkah_7.png)
+
+### Langkah 8: Menjalankan Storage Link
+
+```bash
+php artisan storage:link
+```
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_1_langkah_8.png)
+
