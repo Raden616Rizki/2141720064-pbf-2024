@@ -125,3 +125,16 @@ php artisan route:list
 
 ![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_5_langkah_2.png)
 
+## Praktikum 6: Update Data ke Database
+
+### Langkah 1: Menambahkan Method Update
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_6_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_6_langkah_1_2.png)
+
+### Langkah 2: Uji Coba Rest API
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_6_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-laravel-nextjs/img/praktikum_6_langkah_2_2.png)
