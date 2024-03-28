@@ -93,3 +93,17 @@ Menambahkan Legaci Behaviour untuk menggunakan tag a (<a>)
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_5_langkah_3_1.png)
 
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_5_langkah_3_2.png)
+
+## Praktikum 6: Delete Data di Next.js
+
+### Langkah 1: Menambahkan Method Delete Post
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_6_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_6_langkah_1_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_6_langkah_1_3.png)
+
+### Langkah 2: Uji Coba Delete Post
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-crud/img/praktikum_6_langkah_2.gif)
