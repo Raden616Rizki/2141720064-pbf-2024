@@ -31,8 +31,31 @@ npx create-next-app pbf-pertemuan-07-nextjs-context
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_4_error_1_solved.png)
 
 **Soal 1**
+
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_4_2.png)
 
 Dengan menggunakan atomic design ini, struktur penulisan kode untuk sintaks lebih mudah digunakan dan untuk component yang memiliki struktur yang mirip ataupun class yang sama dapat menggunakan function component yang sudah dibuat tanpa harus menulis kode yang sama berulang kali, hanya perlu memasukkan parameter untuk kedinamisan tampilkan yang dihasilkan dari kode yang dibuat. Tampilan laman yang ditampilkan dapat seperti hasil dari kode html yang umum digunakan, dengan variasi penggunaan heading.
+
+### Langkah 5.1: Buat Context
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_5_1.png)
+
+### Langkah 5.2: Gunakan Context
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_5_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_5_2_2.png)
+
+### Langkah 5.3: Sediakan context
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_5_3_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_5_3_2.png)
+
+**Soal 2**
+
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+Meneruskan suatu value dapat dilakukan dengan menggunakan context, sehingga child hanya perlu mengakses value dari node atas terdekat atau parent, tanpa perlu diberi value untuk masing-masing child. Meskipun menggunakan context, tampilan laman yang dihasilkan masih sama seperti sebelumnya.
