@@ -75,3 +75,38 @@ Meneruskan suatu value dapat dilakukan dengan menggunakan context, sehingga chil
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
 Selain dapat membagikan value ke child secara manual, context dapat mengirimkan data dengan operasi atau pola yang sama, seperti pada langkah keenam ini, dapat dilakukan pengiriman value secara auto increment, namun perbedaan tampilan saat ini adalah, ukuran font lebih kecil, dikarenakan dengan value default 1, maka saat sampai ke child nya sudah dilakukan penambahan.
+
+## Praktikum 2: Membuat Context melewati komponen perantara
+
+### Langkah 1: Buat komponen atom baru
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_1_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_1_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_1_4.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_1_5.png)
+
+### Langkah 2: Tambahkan ProfilePage ke page.tsx lalu run
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_4.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_5.png)
+
+**Soal 4**
+
+Capture hasilnya dan buatlah laporan di README.md. Tambahkan teks Nama dan NIM pada bagian komponen Post agar menunjukkan itu hasil kerja Anda!
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_6.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_7.png)
+
