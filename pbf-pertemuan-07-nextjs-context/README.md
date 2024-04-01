@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+| Raden Rizki | 2141720064 | TI - 3C | 13 |
 
-## Getting Started
+## Praktikum 1: Membuat Variasi Ukuran Teks Heading dengan Context
 
-First, run the development server:
+### Langkah 1: Buat project baru dan repo baru di GitHub
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app pbf-pertemuan-07-nextjs-context
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_1.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Langkah 2: Buat struktur folder dengan prinsip [atomic design](https://bradfrost.com/blog/post/atomic-web-design/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_2.png)
 
-## Learn More
+### Langkah 3: Buat komponen atom baru
 
-To learn more about Next.js, take a look at the following resources:
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_3_1.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_3_2.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_3_3.png)
 
-## Deploy on Vercel
+### Langkah 4: Ubah isi kode page.tsx dan run
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_4_1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_4_error_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_4_error_1_solved.png)
+
+**Soal 1**
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_4_2.png)
+
+Dengan menggunakan atomic design ini, struktur penulisan kode untuk sintaks lebih mudah digunakan dan untuk component yang memiliki struktur yang mirip ataupun class yang sama dapat menggunakan function component yang sudah dibuat tanpa harus menulis kode yang sama berulang kali, hanya perlu memasukkan parameter untuk kedinamisan tampilkan yang dihasilkan dari kode yang dibuat. Tampilan laman yang ditampilkan dapat seperti hasil dari kode html yang umum digunakan, dengan variasi penggunaan heading.
