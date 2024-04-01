@@ -59,3 +59,19 @@ Dengan menggunakan atomic design ini, struktur penulisan kode untuk sintaks lebi
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
 Meneruskan suatu value dapat dilakukan dengan menggunakan context, sehingga child hanya perlu mengakses value dari node atas terdekat atau parent, tanpa perlu diberi value untuk masing-masing child. Meskipun menggunakan context, tampilan laman yang dihasilkan masih sama seperti sebelumnya.
+
+### Langkah 6: Menggunakan dan menyediakan context dari komponen yang sama
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_6_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_6_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_6_3.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_1_langkah_6_4.png)
+
+**Soal 3**
+
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+Selain dapat membagikan value ke child secara manual, context dapat mengirimkan data dengan operasi atau pola yang sama, seperti pada langkah keenam ini, dapat dilakukan pengiriman value secara auto increment, namun perbedaan tampilan saat ini adalah, ukuran font lebih kecil, dikarenakan dengan value default 1, maka saat sampai ke child nya sudah dilakukan penambahan.
