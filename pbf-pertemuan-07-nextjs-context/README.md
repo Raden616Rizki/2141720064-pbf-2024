@@ -110,3 +110,45 @@ Capture hasilnya dan buatlah laporan di README.md. Tambahkan teks Nama dan NIM p
 
 ![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_2_langkah_2_7.png)
 
+## Praktikum 3: Membuat Context Tema Light/Dark
+
+### Langkah 1: Membuat variabel tema
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_1_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_1_2.png)
+
+### Langkah 2: Buat komponen atom NavBar
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_2.png)
+
+## Langkah 3: Buat Provider
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_3.png)
+
+## Langkah 4: Buat masing-masing page
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_4_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_4_2.png)
+
+## Langkah 5: Buat routing
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_1.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_2.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_3.png)
+
+**Soal 5**
+
+Silakan save semua dan lakukan running di browser Anda. Capture hasilnya dan buatlah laporan di README.md. Tambahkan teks Nama dan NIM pada setiap page routing agar menunjukkan itu hasil kerja Anda sendiri!
+
+1. Apakah toggle button tema sudah berfungsi ? jika belum, silakan perbaiki!
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_4.gif)
+
+2. Mengapa ketika refresh atau berpindah halaman tema tidak permanen ? Buatlah menjadi permanen walaupun page sudah direfresh dan pindah halaman!
+
+Hal tersebut dapat terjadi karena tidak disimpannya state tema dalam browser, masalah ini dapat diatasi dengan kode sebagai berikut.
+

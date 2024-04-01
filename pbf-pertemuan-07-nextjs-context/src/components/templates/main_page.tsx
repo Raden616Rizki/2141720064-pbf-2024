@@ -4,7 +4,7 @@ import Section from "../atoms/section";
 export default function MainPage() {
     return (
         <Section>
-            <Heading>Title</Heading>
+            <Heading>Raden Rizki | 2141720064</Heading>
             <Section>
                 <Heading>Heading</Heading>
                 <Heading>Heading</Heading>
