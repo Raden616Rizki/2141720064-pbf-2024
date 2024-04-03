@@ -152,3 +152,8 @@ Silakan save semua dan lakukan running di browser Anda. Capture hasilnya dan bua
 
 Hal tersebut dapat terjadi karena tidak disimpannya state tema dalam browser, masalah ini dapat diatasi dengan kode sebagai berikut.
 
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_5.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_6.png)
+
+![gambar-praktikum](../pbf-pertemuan-07-nextjs-context/img/praktikum_3_langkah_5_7.gif)
